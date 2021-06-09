@@ -1,0 +1,15 @@
+{
+	"/datacenters": {
+		"get": {
+			"response": {
+				"code": 429,
+				"headers": {
+					"Retry-After": 3
+				},
+				"body": {
+					"foo": "bar"
+				}
+			}
+		}
+	}
+}
